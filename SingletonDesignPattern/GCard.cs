@@ -13,7 +13,10 @@
 
         }
 
+        #region Property Methode
         public static GCard SingeltonObj { get; } = new GCard(123);
+
+        #endregion
 
         #region Static Methode
         private static GCard singltonOBJ = new GCard(123);
