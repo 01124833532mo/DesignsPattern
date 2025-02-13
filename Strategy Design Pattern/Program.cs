@@ -11,7 +11,7 @@ namespace Strategy_Design_Pattern
             mallardDuck.Diplay();
             mallardDuck.Swim();
             mallardDuck.Quack();
-            mallardDuck.Fly();
+            mallardDuck.Fly(new NormalSpeedFly().PerformFly);
 
             Console.WriteLine();
             Console.WriteLine("***************************");
@@ -21,7 +21,7 @@ namespace Strategy_Design_Pattern
 
             rubberDuck.Diplay();
             rubberDuck.Swim();
-            rubberDuck.Fly();
+            rubberDuck.Fly(new NoFly().PerformFly);
             rubberDuck.Quack();
 
 
@@ -29,7 +29,6 @@ namespace Strategy_Design_Pattern
             Console.WriteLine("*********** Hunting Mode On ***********");
             Console.WriteLine("================================");
 
-            mallardDuck.Fly();
 
         }
     }

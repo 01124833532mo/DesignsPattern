@@ -11,9 +11,10 @@
             QuackBehaviour = quackBehaviour;
         }
 
-        public void Fly()
+        public void Fly(Action flyaction)
         {
-            FlyBehaviour.PerformFly();
+            //FlyBehaviour.PerformFly();
+            flyaction.Invoke();
         }
         public void Quack()
         {
