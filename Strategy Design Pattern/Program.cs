@@ -1,4 +1,4 @@
-﻿using Strategy_Design_Pattern.With_No_Dp;
+﻿using Strategy_Design_Pattern.With_Dp;
 
 namespace Strategy_Design_Pattern
 {
@@ -10,7 +10,7 @@ namespace Strategy_Design_Pattern
 
             mallardDuck.Diplay();
             mallardDuck.Swim();
-            mallardDuck.Quak();
+            mallardDuck.Quack();
             mallardDuck.Fly();
 
             Console.WriteLine();
@@ -22,7 +22,7 @@ namespace Strategy_Design_Pattern
             rubberDuck.Diplay();
             rubberDuck.Swim();
             rubberDuck.Fly();
-            rubberDuck.Quak();
+            rubberDuck.Quack();
 
 
             Console.WriteLine("================================");
