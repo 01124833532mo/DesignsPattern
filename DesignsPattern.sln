@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonDesignPattern", "SingletonDesignPattern\SingletonDesignPattern.csproj", "{508A1446-CC6B-473F-9CF0-DE8844D1934B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonDesignPattern", "SingletonDesignPattern\SingletonDesignPattern.csproj", "{508A1446-CC6B-473F-9CF0-DE8844D1934B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singelton", "Singelton", "{BBB7C6A1-3187-482A-BB0A-8B73EA5831E4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy", "Strategy", "{34517E50-6F92-4A9C-B15B-114DDBA2E5A1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy Design Pattern", "Strategy Design Pattern\Strategy Design Pattern.csproj", "{B18C19E8-2CE3-45F1-95DB-6F7560D6FCAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{8537342D-FC26-4CB7-8F5E-B0C6A247FD11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorDesignPattern", "DecoratorDesignPattern\DecoratorDesignPattern.csproj", "{B0DD2375-38B1-4477-B5EE-0A76D7852D88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,10 @@ Global
 		{B18C19E8-2CE3-45F1-95DB-6F7560D6FCAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B18C19E8-2CE3-45F1-95DB-6F7560D6FCAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B18C19E8-2CE3-45F1-95DB-6F7560D6FCAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0DD2375-38B1-4477-B5EE-0A76D7852D88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0DD2375-38B1-4477-B5EE-0A76D7852D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0DD2375-38B1-4477-B5EE-0A76D7852D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0DD2375-38B1-4477-B5EE-0A76D7852D88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{508A1446-CC6B-473F-9CF0-DE8844D1934B} = {BBB7C6A1-3187-482A-BB0A-8B73EA5831E4}
 		{B18C19E8-2CE3-45F1-95DB-6F7560D6FCAA} = {34517E50-6F92-4A9C-B15B-114DDBA2E5A1}
+		{B0DD2375-38B1-4477-B5EE-0A76D7852D88} = {8537342D-FC26-4CB7-8F5E-B0C6A247FD11}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {46E38678-70C5-4C56-BE07-43B3C4A1B28A}
